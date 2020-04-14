@@ -1,0 +1,119 @@
+# SO HERE'S A BUNCH OF BLOCKING READS OF LIBRARIES I DON'T THINK THAT MATTERS (35j)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libnode.so.64", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\\Y\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`|\0\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 o\2\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0203\0\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libuv.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\267\0\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcares.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p$\0\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300R\0\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\360\10\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libssl.so.1.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\364\1\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libicui18n.so.63", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\364\r\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libicuuc.so.63", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p$\6\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\21\0\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2603\0\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\240\t\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\361\0\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0203\0\0\0\0\0\0"..., 832) = 832
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libicudata.so.63", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\20\0\0\0\0\0\0"..., 832) = 832
+# END OF THAT
+set_tid_address(0x7f8d21c18ed0)         = 511739 # THIS HAS SOMETHING TO DO WITH FUTEX WHICH HAS SOMETH TO DO WITH BLOCKING?
+futex(0x7f8d241df608, FUTEX_WAKE_PRIVATE, 2147483647) = 0 # MAN PAGE FOR FUTEX SAID SOMETHING ABOUT BLOCKING BUT IDK WHAT IT IS
+futex(0x7f8d239366bc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f8d239366c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+epoll_create1(EPOLL_CLOEXEC)            = 3 # THESE WILL BE RELEVANT LATER
+pipe2([4, 5], O_CLOEXEC)                = 0 # I THINK THIS PIPE IS MY PIPE STDERR TO STDOUT IN RUNNING THE COMMAND? BECAUSE I THINK 5 IS STDOUT (USED LATER)
+write(5, "*", 1)                        = 1
+futex(0x7f8d241df600, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+pipe2([6, 7], O_NONBLOCK|O_CLOEXEC)     = 0 # THIS MIGHT BE THE PIPE TO DEVNULL
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 8
+epoll_create1(EPOLL_CLOEXEC)            = 9
+pipe2([10, 11], O_NONBLOCK|O_CLOEXEC)   = 0
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 12
+futex(0xde6fe0, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffce9a77d20, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7ffce9a77d20, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7ffce9a77d20, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7f8d2416e948, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f8d2416e818, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f8d2416e80c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f8d2416e804, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getrandom("\xfe\xc8\x25\xf0\xb4\x8e\xb6\xd9\x3c\xcf\x61\xfd\xc2\x5d\xd7\x62\xd2\x9c\xd4\xcb\xe0\xf1\x07\x8c\xb6\x0f\x30\x20\x3f\x71\x29\x6e", 32, 0) = 32 # THIS CAN BLOCK (differs geturandom)
+futex(0x7f8d2416e918, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0xde6cc8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x7f8d25a3bb20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f8d241df6b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0xde6cc8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xe2ec50, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6cc8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xe2ec50, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6cc8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6ccc, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6ccc, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xe2ec50, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6ccc, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6ccc, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6cc8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6cc8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x7ffce9a75078, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7ffce9a75080, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0xde6cc8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+openat(AT_FDCWD, "/dev/pts/1", O_RDWR|O_NOCTTY|O_CLOEXEC) = 17 # STDOUT USUALLY DOESN'T BLOCK RIGHT
+dup3(17, 1, O_CLOEXEC)                  = 1
+openat(AT_FDCWD, "/dev/null", O_RDONLY|O_CLOEXEC) = 18 # THIS IS PROBLY BECAUSE I PIPED STDOUT TO DEV/NULL
+read(4, "*", 1)                         = 1 # NOT OPENED NON-BLOCK (BUT MIGHT BE STDERR THING)
+write(5, "*", 1)                        = 1 # NOT OPENED NON-BLOCK (BUT MIGHT BE STDERR THING)
+futex(0xde6cc8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+# omg lmao we're finally reading our program
+openat(AT_FDCWD, "/home/luna/src/epoll-sockets/node/client.js", O_RDONLY|O_CLOEXEC) = 19
+read(19, "var net = require(\"net\");\n\nvar c"..., 252) = 252
+close(19)                               = 0
+socket(AF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP) = 19 # NOTE HOW IT'S NONBLOCK
+connect(19, {sa_family=AF_INET, sin_port=htons(5507), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 EINPROGRESS (Operation now in progress)
+epoll_ctl(3, EPOLL_CTL_ADD, 6, {EPOLLIN, {u32=6, u64=6}}) = 0 # THIS IS ONE END OF A PIPE WE MADE WAY BACK
+epoll_ctl(3, EPOLL_CTL_ADD, 8, {EPOLLIN, {u32=8, u64=8}}) = 0 # THIS IS OUR EVENT FD
+epoll_ctl(3, EPOLL_CTL_ADD, 19, {EPOLLOUT, {u32=19, u64=19}}) = 0 # HERE'S OUR SOCKET
+epoll_wait(3, [{EPOLLOUT, {u32=19, u64=19}}], 1024, -1) = 1 # THIS IS AN EPOLL BLOCK
+write(19, "you guys not know how to play ta"..., 34) = 34 # NONBLOCK
+epoll_ctl(3, EPOLL_CTL_ADD, 19, {EPOLLIN, {u32=19, u64=19}}) = -1 EEXIST (File exists)
+epoll_ctl(3, EPOLL_CTL_MOD, 19, {EPOLLIN, {u32=19, u64=19}}) = 0
+epoll_wait(3, [{EPOLLIN, {u32=19, u64=19}}], 1024, -1) = 1 # EPOLL BLOCK
+read(19, "you guys not know how to play ta"..., 65536) = 34
+write(17, "Echoed: you guys not know how to"..., 43) = 43
+read(4, "*", 1)                         = 1 # THESE AGAIN
+write(5, "*", 1)                        = 1 # THESE AGAIN
+epoll_wait(3, [], 1024, 0)              = 0 # EPOLL BLOCK
+# then we deregister epoll events and close everything
+futex(0xde6ccc, FUTEX_WAKE_PRIVATE, 2147483647) = 4
+futex(0xde6c78, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8 # NOT SURE WHAT THIS IS (DOES IT BLOCK? IDK)
+futex(0x7f8d21c049d0, FUTEX_WAIT, 511743, NULL) = 0
+futex(0x7f8d2416e6c4, FUTEX_WAKE_PRIVATE, 2147483647) = 0

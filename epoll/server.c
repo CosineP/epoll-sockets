@@ -92,6 +92,8 @@ int main() {
                 }
                 int flags = fcntl(newsockfd, F_GETFL, 0);
                 fcntl(newsockfd, F_SETFL, flags | O_NONBLOCK);
+                // TODO: why doesn't this drop at the end of this scope and
+                // invalidate the pointer? im not complaining tho
                 conn_status new_conn = {
                     newsockfd,
                     0,
